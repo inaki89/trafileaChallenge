@@ -1,0 +1,24 @@
+{
+  "name": "TrafileaChallenge",
+  "version": "1.0.0",
+  "description": "API Automation Testing",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e",
+    "cypress:execution": "cypress run"
+  },
+  "keywords": [
+    "cucumber",
+    "cypress",
+    "javascript"
+  ],
+  "author": "Iñaki Villareal",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "cypress": "^13.7.0",
+    "cypress-plugin-api": "^2.4.1",
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "latest"
+  }
+}
